@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  font-family: 'VT323', monospace;
+  margin: 0;
+  padding: 0;
+  /*background-color: black;*/
+}
+body {
+  background-color: grey;
+}
+
+.container {
+  width: 1200px;
+  margin: 5px auto;
+  /*border: 1px solid red;*/
+  overflow: hidden;
+}
+
+header {
+  /*font-size: 60px;*/
+  color: #00FF00;
+  background-color: black;
+  line-height: 50px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.blue-marine {
+  margin: 100px 25px 25px 50px;
+}
+
+.pink-pony, .winner, .laps, .start {
+  margin: 50px 25px 25px 50px;
+}
+
+span, p {
+  color: #00FF00;
+}
